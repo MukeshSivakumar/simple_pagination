@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav id="nav-header">
+        <h1>Pagination</h1>
+    </nav>
+
+    <div id="container">  
+    </div>
+
+    <div id="pagination-container">
+        <button id="prev-btn" class="btn-prev-next" data-page-value="prev" disabled><i class="fa-solid fa-backward"></i></button>
+        <button id="btn-1" class="btn click-btn" data-page-value="1" >1</button>
+        <button id="btn-2" class="btn" data-page-value="2" >2</button>
+        <button id="btn-3" class="btn" data-page-value="3" >3</button>
+        <button id="btn-4" class="btn" data-page-value="4" >4</button>
+        <button id="next-btn" class="btn-prev-next" data-page-value="next" ><i class="fa-solid fa-forward"></i></button>
+    </div>
+   
+
+   <script src="pagination.js"></script>
+</body>
+</html>
